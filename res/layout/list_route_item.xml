@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:padding="5dp"
+        android:text="Name"
+        android:textColor="#07648C"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_route_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_snippet"
+        android:layout_marginTop="22dp"
+        android:text="Route Id"
+        android:visibility="invisible"
+         />
+
+    <TextView
+        android:id="@+id/tv_region"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_route_id"
+        android:layout_marginTop="22dp"
+        android:text="Region"
+        android:visibility="invisible"
+         />
+
+    <TextView
+        android:id="@+id/tv_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_name"
+        android:layout_alignBottom="@+id/tv_name"
+        android:layout_alignParentRight="true"
+        android:padding="5dp"
+        android:paddingRight="15dp"
+        android:text="Time Duration"
+        android:textColor="#055070"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_cost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+		android:layout_below="@+id/tv_duration"
+        android:padding="5dp"
+        android:text="Estimate Cost"
+        android:textSize="20sp"
+        android:paddingRight="15dp"
+        android:textColor="#0C6B30"
+         />
+
+    <TextView
+        android:id="@+id/tv_snippet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_address"
+        android:layout_below="@+id/rating_route"
+        android:padding="5dp"
+        android:text="Snippet"
+        android:textColor="#283E99"
+        android:textSize="16sp"
+         />
+
+    <RatingBar
+        android:id="@+id/rating_route"
+        style="?android:attr/ratingBarStyleIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/tv_duration"
+        android:layout_below="@+id/tv_address"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:padding="5dp"
+        android:stepSize="0.5" />
+
+    <TextView
+        android:id="@+id/tv_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_cost"
+        android:text="Address" 
+        android:textSize="16sp"
+        android:padding="5dp"
+        android:textColor="#942242"
+        />
+    
+</RelativeLayout>

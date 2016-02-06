@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/btn_nearby_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv_instruction1"
+        android:text="Local Search" />
+
+    <TextView
+        android:id="@+id/tv_instruction1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="Press the button below to search nearby places"
+        android:textColor="#05769C"
+        android:textSize="20sp"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/tv_instruction2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_nearby_search"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="Press the region in the list below to search for routes based on region"
+        android:textColor="#05769C"
+        android:textSize="20sp"
+        android:typeface="serif" />
+
+    <ListView
+        android:id="@+id/list_regions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_instruction2"
+        android:background="#d8b76d"
+        android:divider="#AAAAAA"
+        android:dividerHeight="1dp"
+        android:padding="5dp" >
+
+    </ListView>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:contentDescription="Trekking in the Hills"
+        
+        android:src="@drawable/start_screen" />
+
+</RelativeLayout>

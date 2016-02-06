@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color" 
+     >
+
+    <TextView
+        android:id="@+id/tv_marker_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:padding="5dp"
+        android:text="Name"
+        android:textColor="#850F4A"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_marker_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_marker_latlong"
+        android:padding="5dp"
+        android:text="Address"
+        android:textColor="#10823B"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_marker_latlong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_marker_name"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:padding="5dp"
+        android:text="LatLong"
+        android:textColor="#875B0F"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_marker_snippet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_marker_address"
+        android:padding="5dp"
+        android:text="Snippet"
+        android:textColor="#875B0F"
+        android:textSize="16sp" />
+
+</RelativeLayout>

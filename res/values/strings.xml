@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LocationRouteDirectionMapV2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+	<string name="str_btn_find">Find</string>
+	<color name="bg_color">#f1f2f4</color>
+	<string-array name="place_type">
+        <item>restaurant</item>
+        <item>airport</item>
+        <item>atm</item>
+        <item>bank</item>
+        <item>bus_station</item>
+        <item>hospital</item>
+        <item>travel_agency</item>
+        <item>taxi_stand</item>
+        <item>embassy</item>
+        <item>bar</item>
+    </string-array>
+ 
+    <string-array name="place_type_name">
+        <item>Restaurant</item>
+        <item>Airport</item>
+        <item>ATM</item>
+        <item>Bank</item>
+        <item>Bus Station</item>
+        <item>Hospital</item>
+        <item>Travel Agency</item>
+        <item>Taxi Stand</item>
+        <item>Embassy</item>
+        <item>Bar</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources  xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <string-array name="regions">
+		<item name="pokhara">Pokhara</item>
+		<item name="langtang">Langtang</item>
+		<item name="dolakha">Dolakha</item>
+	</string-array>
+    
+</resources>
